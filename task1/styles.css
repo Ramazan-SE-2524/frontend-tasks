@@ -57,3 +57,17 @@ a:hover {
   color: #6b1fd4;
   background-color: #ffffff;
 }
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+  .container {
+    padding: 15px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  .avatar {
+    max-width: 150px;
+  }
+}
